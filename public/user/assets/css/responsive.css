@@ -1,0 +1,277 @@
+/*-------------------------------------------
+    14. Responsive Design CSS
+-------------------------------------------*/
+
+/*=====================================
+    Extra Large Screen
+========================================*/
+
+@media only screen and (min-width: 1920px) {
+}
+
+/*=====================================
+  For Large Screen
+========================================*/
+
+/*--------Max 1366px Width Screen---------*/
+
+@media only screen and (max-width: 1399px){
+
+    /* Dashboard Page Start */
+    .navbar-header .price-alert-box {
+        display: none!important;
+    }
+    .page-content .price-alert-box {
+        display: flex!important;
+        margin-left: 0!important;
+        margin-bottom: 20px!important;
+        padding: 15px;
+        height: auto;
+        width: auto;
+    }
+    /* Dashboard Page End */
+
+    /* Pricing Plan Start */
+       .pricing-plan-area {
+        padding: 0!important;
+    }
+    /* Pricing Plan End */
+
+}
+@media only screen and (min-width: 1399px){
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+}
+
+/*Default for Max 1366px Width Devices*/
+@media only screen and (max-width: 1366px) {
+}
+
+/*--------Max 1200px Width Screen---------*/
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/*=====================================
+  For Medium Screen
+========================================*/
+
+@media only screen and (max-width: 1199.98px){
+
+    h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    /*Sign In*/
+    .sign-up-left-content, .sign-up-right-content {
+        padding: 30px;
+    }
+    /*Sign In*/
+
+    /* Dashboard Page Start */
+
+    /* Dashboard Topic area start */
+    .dashboard-topic-nav {
+        min-height: auto;
+        flex-direction: row!important;
+        /* min-width: 100%; */
+        flex-wrap: nowrap;
+    }
+    .dashboard-topic-wrap {
+        /* overflow-x: auto; */
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 25px;
+    }
+    .dashboard-topic-wrap-inner {
+        overflow-x: auto;
+    }
+    .dashboard-topic-nav .nav-link {
+        /* display: inline-flex; */
+        /* display: inline-flex; */
+        white-space: nowrap;
+        margin: 0 10px 0;
+        padding: 6px 0px 30px;
+    }
+
+    .dashboard-topic-nav.nav-pills .nav-link.active:before, .dashboard-topic-nav.nav-pills .show>.nav-link:before {
+        height: 2px;
+        width: 100%;
+        top: auto;
+        bottom: 8px;
+    }
+    /* Dashboard Topic area end */
+
+    /* Dashboard Page End */
+
+}
+
+@media only screen and (min-width: 992px){
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+}
+
+/*======================================
+      Tablet layout
+=========================================*/
+
+@media only screen and (max-width: 992.98px) {
+    /* Dashboard Layout */
+    .page-content {
+        /* padding-right: 0; */
+    }
+    /* Dashboard Layout */
+
+}
+
+@media only screen and (min-width: 991px) {
+}
+
+@media only screen and (min-width: 768.98px) and (max-width: 991.98px) {
+}
+
+@media only screen and (max-width: 991.98px) {
+
+    .section-t-space {
+        padding-top: 50px;
+    }
+    .section-b-space, .section-b-85-space {
+        padding-bottom: 50px;
+    }
+    .section-b-85-space {
+        padding-bottom: 15px;
+    }
+    .section-b-90-space {
+        padding-bottom: 50px;
+    }
+    .section-t-90-space {
+        padding-top: 50px;
+    }
+    .section-p-t-b-100 {
+        padding: 50px 0 50px;
+    }
+
+    /* Sign Up page */
+    .sign-up-right-content form {
+        width: 100%;
+    }
+    .sign-up-left-content p {
+        width: 100%!important;
+    }
+}
+
+@media only screen and (min-width: 768.98px) and (max-width: 1199.98px) {
+}
+
+@media only screen and (max-width: 768.98px) {
+
+}
+
+/*=======================================
+      For Small Devices
+=========================================*/
+@media only screen and (max-width: 767.98px) {
+
+    /*Sign In*/
+    .sign-up-page .sign-up-page-wrap-row {
+        flex-direction: column-reverse;
+    }
+    .sign-up-left-content, .sign-up-right-content {
+        min-height: auto;
+        height: auto;
+    }
+    .sign-up-bottom-img img {
+        width: 250px;
+    }
+    /*Sign In*/
+}
+
+/*========================================
+    For large mobile
+=========================================*/
+@media only screen and (max-width: 766.98px){
+
+    /* Dashboard Page */
+    .price-alert-box {
+        flex-direction: column;
+        align-items: flex-start!important;
+    }
+    .price-alert-box .alert-link {
+        margin-top: 6px;
+        margin-left: 30px;
+    }
+    /* Dashboard Page */
+
+    /* Payment Method */
+    .payment-method-wrap {
+        padding: 0!important;
+    }
+    /* Payment Method */
+
+}
+@media only screen and (min-width: 480px) and (max-width: 766px){
+}
+
+@media only screen and (min-width: 576px) and (max-width: 700px) {
+}
+
+@media only screen and (max-width:575.98px) {
+
+    .section-title {
+        width: 100%;
+    }
+
+    .status-btn {
+        padding: 7px 12px!important;
+    }
+
+    /* AI Assistant Start */
+    .ai-assistant-top-bar-left {
+        flex-wrap: wrap;
+    }
+    /* AI Assistant End */
+}
+
+@media only screen and (max-width:480px) {
+
+    /* Subscription Page */
+    .current-plan {
+        flex-direction: column;
+        align-items: flex-start!important;
+    }
+    .current-plan .flex-shrink-0 {
+        margin-left: 0!important;
+        margin-top: 10px;
+    }
+    /* Subscription Page */
+
+}
+
+@media only screen and (max-width:450px) {
+    /* Pricing Plan */
+    .theme-btn-outline {
+        padding: 14px 30px!important;
+    }
+    /* Pricing Plan */
+}
+
+/*=========================================
+      For very little mobile
+=========================================*/
+@media only screen and (max-width:340px) {
+}
+
+@media only screen and (min-width:300px) and (max-width:479px) {
+}
+/*-------------------------------------------
+    14. Responsive Design End
+-------------------------------------------*/

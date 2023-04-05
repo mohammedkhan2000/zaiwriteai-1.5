@@ -1,0 +1,282 @@
+/* --------------------------------------------------
+LTR Support Styles Start
+-------------------------------------------------- */
+.direction-ltr {
+    direction: ltr;
+}
+/* --------------------------------------------------
+LTR Support Styles End
+-------------------------------------------------- */
+
+/* --------------------------------------------------
+RTL Support Styles Start
+-------------------------------------------------- */
+.direction-rtl {
+    direction: rtl;
+}
+
+/* ----RTL Template Default Style Start----- */
+.direction-rtl .ms-1 {
+    margin-left: 0!important;
+    margin-right: .25rem;
+}
+.direction-rtl .me-3 {
+    margin-right: 0!important;
+    margin-left: 1rem;
+}
+.direction-rtl .me-1 {
+    margin-right: 0!important;
+    margin-left: .25rem;
+}
+.direction-rtl .ms-2 {
+    margin-left: 0!important;
+    margin-right: .5rem;
+}
+.direction-rtl .ms-3 {
+    margin-left: 0!important;
+    margin-right: 1rem!important;
+}
+.direction-rtl .me-4 {
+    margin-right: 0!important;
+    margin-left: 1.5rem;
+}
+.direction-rtl .me-2 {
+    margin-right: 0!important;
+    margin-left: .5rem;
+}
+.direction-rtl .ms-auto {
+    margin-left: 0!important;
+    margin-right: auto!important;
+}
+
+
+.direction-rtl .dropdown-item {
+    text-align: right;
+}
+
+.direction-rtl .text-start {
+    text-align: right!important;
+}
+.direction-rtl .text-end {
+    text-align: left!important;
+}
+@media (min-width: 768px) {
+    .direction-rtl .text-md-end {
+        text-align: left!important;
+    }
+}
+
+.direction-rtl .theme-link .ri-arrow-right-line, .edit-btn .ri-arrow-right-line,
+.direction-rtl .theme-btn .iconify {
+    transform: rotate(0.5turn);
+}
+
+.direction-rtl .form-select {
+    padding: 7px 20px 7px 32px;
+
+}
+
+/* ----RTL Template Default Style End----- */
+
+/* ----Header Menu Start----- */
+.direction-rtl .navbar-header {
+    /* padding: 0 0 0 calc(24px / 2); */
+    padding-right: 0;
+    padding-left: 25px;
+}
+.direction-rtl #vertical-menu-btn i {
+    transform: rotate(0.5turn);
+}
+.direction-rtl .noti-icon .noti-dot {
+    right: auto;
+    left: 7px;
+}
+.direction-rtl .notification-item .d-flex {
+    text-align: right;
+}
+/* ----Header Menu End----- */
+
+/* ----Add Property Start----- */
+.direction-rtl #progressbar li:after {
+    right: auto;
+    left: -12%;
+}
+.direction-rtl .nav-tabs .nav-item.show .nav-link .select-property-nav-text-box::after, .direction-rtl .nav-tabs .nav-link.active .select-property-nav-text-box::after {
+    left: auto;
+    right: 10px;
+    border-width: 0 0 1px 1px;
+    transform: rotate(-45deg);
+}
+.direction-rtl .custom-datepicker-inner i {
+    right: auto;
+    left: 15px;
+}
+.direction-rtl #msform .action-button-previous {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.direction-rtl .custom-checkbox label:before {
+    margin-right: 0;
+    margin-left: 7px;
+}
+.direction-rtl .breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    transform: rotate(0.5turn);
+    top: -2px;
+    position: relative;
+    padding-left: .5rem;
+}
+.direction-rtl .form-select {
+    background-position: left .75rem center;
+}
+.direction-rtl .property-item-dropdown {
+    right: auto;
+    left: -3px;
+}
+.direction-rtl .page-inner-search .form-control {
+    padding-right: 40px;
+    padding-left: 20px;
+}
+.direction-rtl .page-inner-search span {
+    left: auto;
+    right: 13px;
+}
+.direction-rtl .custom-checkbox input:checked + label:after {
+    left: auto;
+    right: 6px;
+    border-width: 0 0 1px 1px;
+    transform: rotate(-45deg);
+}
+/* ----Add Property End----- */
+
+/* ----Datatable RTL CSS Start---- */
+.direction-rtl div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+.direction-rtl div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0!important;
+    margin-right: 0.5em;
+}
+.direction-rtl .paginate_button.next a .iconify, .direction-rtl .paginate_button.next a i, .direction-rtl .paginate_button.next a i.mdi::before,
+.direction-rtl .paginate_button.next.disabled a .iconify, .direction-rtl .paginate_button.next.disabled a i, .direction-rtl .paginate_button.next.disabled a i.mdi::before {
+    transform: rotate(-180deg);
+}
+.direction-rtl .paginate_button.previous a .iconify, .direction-rtl .paginate_button.previous a i, .direction-rtl .paginate_button.previous a i.mdi::before,
+.direction-rtl .paginate_button.previous.disabled a .iconify, .direction-rtl .paginate_button.previous.disabled a i, .direction-rtl .paginate_button.previous.disabled a i.mdi::before {
+    transform: rotate(180deg);
+}
+.direction-rtl .dataTables_wrapper .btn-group>.btn-group:not(:last-child)>.btn, .direction-rtl .dataTables_wrapper .btn-group>.btn.dropdown-toggle-split:first-child, .direction-rtl .dataTables_wrapper .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.direction-rtl .dataTables_wrapper .btn-group>.btn-group:not(:first-child)>.btn, .direction-rtl .dataTables_wrapper .btn-group>.btn:nth-child(n+3), .direction-rtl .dataTables_wrapper .btn-group>:not(.btn-check)+.btn {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.direction-rtl .dataTables_wrapper .dt-buttons.btn-group.flex-wrap {
+    margin-bottom: 25px;
+}
+/* ----Datatable RTL CSS End---- */
+
+/* ----Modal RTL CSS Start---- */
+.direction-rtl .modal-header .btn-close {
+    margin: calc(-.5 * var(--bs-modal-header-padding-y)) auto calc(-.5 * var(--bs-modal-header-padding-y)) calc(-.5 * var(--bs-modal-header-padding-x));
+}
+/* ----Modal RTL CSS End---- */
+
+/* Frontend RTL Start */
+
+/* Navbar RTL */
+.direction-rtl .navbar-nav-middle {
+    padding-left: 0;
+    padding-right: 70px;
+}
+.direction-rtl #mainNav .navbar-nav .nav-item .nav-link {
+    margin-right: 0;
+    margin-left: 36px;
+}
+.direction-rtl .navbar-login-btn .nav-link {
+    margin-left: 36px;
+}
+.direction-rtl .navbar-nav-right .header-get-free-trial-btn .theme-btn-outline {
+    margin-right: 0;
+    margin-left: 36px;
+}
+/* Navbar RTL */
+
+/* Hero Area Start */
+.direction-rtl .hero-main-title-left {
+    margin-right: auto;
+    margin-left: 14px;
+}
+.direction-rtl .hero-robot-img {
+    margin: 0 0 0 14px;
+}
+.direction-rtl .typed-cursor {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.direction-rtl .typed-cursor::before {
+    left: auto;
+    right: -8px;
+}
+.direction-rtl .typed-cursor::after {
+    left: auto;
+    right: -6px;
+}
+/* Hero Area End */
+
+/* Accordion */
+.direction-rtl .accordion-button {
+    padding: 20px 29px 20px 42px;
+}
+.direction-rtl .accordion-button::after {
+    right: auto;
+    left: 19px;
+}
+.direction-rtl .generate-content-faq .accordion-button .iconify {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.direction-rtl .accordion-button {
+    text-align: right;
+}
+/* Accordion */
+
+/* How It Works */
+.direction-rtl .how-it-works-item-title {
+    padding-right: 0;
+    padding-left: 70px;
+}
+.direction-rtl .how-it-works-wrap .how-it-works-item .row .how-it-works-item-bg {
+    transform: rotateX(170deg);
+}
+.direction-rtl .how-it-works-wrap .how-it-works-item:nth-child(even) .row .how-it-works-item-bg {
+    transform: rotateX(0deg);
+}
+/* How It Works */
+
+/* Testimonial */
+.direction-rtl .customer-testimonial-img img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+/* Testimonial */
+
+/* Footer */
+.direction-rtl .footer-widget {
+    float: left;
+}
+/* Footer */
+
+/* Frontend RTL End */
+
+/* --------------------------------------------------
+RTL Support Styles End
+-------------------------------------------------- */
+
+
